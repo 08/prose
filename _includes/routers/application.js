@@ -13,7 +13,7 @@ routers.Application = Backbone.Router.extend({
   },
 
   start: function() {
-    return this.navigate( 'benbalter/benbalter.github.com/tree/master/_posts', true );
+    return this.navigate( '08/08.github.com/tree/master/_posts', true );
     if (confirmExit()) {
       app.state = {
         user: "",
